@@ -93,3 +93,20 @@ header {
     border:  2px solid var(--text-color);
     color: var(--text-color);
 }
+
+#menu-icon {
+    font-size: 40px;
+    color: var(--text-color);
+    z-index: 10001;
+    cursor: pointer;
+    margin: 15px;
+    display: none;
+}
+
+#darkmode {
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--text-color);
+    margin-left: 10px;
+}
+
