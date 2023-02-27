@@ -226,3 +226,23 @@ body.color {
     --second-color: #2b3544;
 }
 /* Responsividade */
+@media (max-width: 1600px) {
+    header {
+        padding: 13px 3%;
+    }
+    section {
+        padding: 0 5%;
+    }
+}
+@media (max-width: 1470px) {
+    .hero-img {
+        height: 700;
+        width: 700;
+    }
+}
+@media (max-width: 1400px) {
+    :root {
+        --big-font: 4rem;
+        --p-font: 15px;
+    }
+}
