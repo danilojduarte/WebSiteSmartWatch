@@ -204,3 +204,18 @@ section {
     bottom: 3.5rem;
     right: 9%;
 }
+
+.down-arrow i {
+    padding: 14px;
+    color: var(--bg-color);
+    background: var(--text-color);
+    font-size: 25px;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: all ease .55s;
+}
+
+.down-arrow i:hover {
+    background: var(--main-color);
+    transform: translateY(5px);
+}
